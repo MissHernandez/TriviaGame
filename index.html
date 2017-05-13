@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Muli|Playfair+Display+SC:700" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://code.jquery.com/jquery.js"></script>	
+
+</head>
+<body>
+
+	<div class="container">
+		<h1 class="title">Michael Jackson Trivia</h1>
+		<div id="start-button">
+			<button class="btn btn-lg btn-block" type="button">Start</button>
+		</div>
+		<div id="questions-answers">
+			<div id="countdown-timer"></div>
+			<div class="question" id="question1">
+				<h4>How old was Michael Jackson when he gave his first public performance?</h4>
+				<form>
+					<input type="radio" name="q1a" value="incorrect">10 years old&nbsp;&nbsp;
+					<input type="radio" name="q1b" value="incorrect">8 years old&nbsp;&nbsp;
+					<input type="radio" name="q1c" value="correct">5 years old&nbsp;&nbsp;
+					<input type="radio" name="q1d" value="incorrect">4 years old&nbsp;&nbsp;
+				</form>
+			</div>
+			<div class="question question2">
+				<h4>Who did Michael Jackson play in The Wiz?</h4>
+				<form>
+					<input type="radio" name="q2a" value="incorrect">The Wiz&nbsp;&nbsp;
+					<input type="radio" name="q2b" value="incorrect">The Tin Man&nbsp;&nbsp;
+					<input type="radio" name="q2c" value="correct">The Scarecrow&nbsp;&nbsp;
+					<input type="radio" name="q2d" value="incorrect">The Cowardly Lion&nbsp;&nbsp;
+				</form>
+			</div>
+			<div class="question question3">
+				<h4>How many brothers and sisters did Michael Jackson have?</h4>
+				<form>
+					<input type="radio" name="q3a" value="incorrect">7&nbsp;&nbsp;
+					<input type="radio" name="q3b" value="correct">8&nbsp;&nbsp;
+					<input type="radio" name="q3c" value="incorrect">9&nbsp;&nbsp;
+					<input type="radio" name="q3d" value="incorrect">10&nbsp;&nbsp;
+				</form>
+			</div>
+			<div class="question question4">
+				<h4>Which is NOT a Michael Jackson #1 hit in the US?</h4>
+				<form>
+					<input type="radio" name="q4a" value="incorrect">Bad&nbsp;&nbsp;
+					<input type="radio" name="q4b" value="incorrect">Billie Jean&nbsp;&nbsp;
+					<input type="radio" name="q4c" value="correct">Thriller&nbsp;&nbsp;
+					<input type="radio" name="q4d" value="incorrect">Man in the Mirror&nbsp;&nbsp;
+				</form>
+			</div>
+			<div id="done-button">
+				<button class="btn btn-lg btn-block" type="button">Done</button>
+			</div>
+		</div>
+	<div id="results"></div>
+
+
+	<script src="assets/javascript/app.js"></script>
+
+</body>
+</html>

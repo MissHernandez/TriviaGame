@@ -1,0 +1,62 @@
+body {
+	background-image: url("../images/mj-background-copy.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-color: #000000;
+}
+
+.container {
+	justify-content: center;
+	vertical-align: middle;	
+    background-color: #d7c56f;
+    width: 55%;
+    height: 100%;
+    border: 1px solid #AAAAAA;
+    border-radius: 25px;
+    margin: 30px;
+    padding: 0px 30px 30px 30px;	
+    opacity: 0.8;
+    text-align: center;
+ }
+
+ h1 {
+ 	font-family: 'Playfair Display SC', serif;
+ 	margin-bottom: 30px;
+ }
+
+ h2 {
+  	font-family: 'Playfair Display SC', serif;
+	
+ }
+
+ h3 {
+ 	font-family: 'Playfair Display SC', serif;
+ 	font-family: 'Droid Serif', serif;
+ 	color: red;
+ 	margin-bottom: 30px;
+ }
+
+ h4 {
+ 	font-family: 'Playfair Display SC', serif;
+ 	font-family: 'Droid Serif', serif;
+ 	font-weight: bold;
+ }
+
+ .main-content {
+ 	display: block;
+ }
+
+ .btn {
+ 	background-color: #000000;
+ 	color: #FFFFFF;
+ }
+
+ .question	 {
+ 	margin-bottom: 40px;
+ }
+
+ form {
+	font-family: 'Muli', sans-serif;
+	
+ }
